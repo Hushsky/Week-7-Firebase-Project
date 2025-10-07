@@ -86,11 +86,6 @@ export async function getRestaurants(db = db, filters = {}) {
   });
 }
 
-// Placeholder for real-time restaurant snapshot function
-export function getRestaurantsSnapshot(cb, filters = {}) {
-  return; // No logic implemented yet
-}
-
 // Fetches a single restaurant document by ID
 export async function getRestaurantById(db, restaurantId) {
   if (!restaurantId) {
